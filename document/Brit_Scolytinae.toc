@@ -1,0 +1,22 @@
+\select@language {english}
+\contentsline {section}{\numberline {1}Introduction}{3}
+\contentsline {subsection}{\numberline {1.1}Background}{3}
+\contentsline {section}{\numberline {2}Scolytinae Tribes}{3}
+\contentsline {subsection}{\numberline {2.1}Key to the tribes}{3}
+\contentsline {subsection}{\numberline {2.2}Scolytini}{3}
+\contentsline {subsection}{\numberline {2.3}Hylesinini}{3}
+\contentsline {section}{\numberline {3}Scolytinae Subtribes}{3}
+\contentsline {subsection}{\numberline {3.1}Key to the subtribes}{3}
+\contentsline {subsection}{\numberline {3.2}Scolytina}{3}
+\contentsline {subsection}{\numberline {3.3}Corthylina}{3}
+\contentsline {subsection}{\numberline {3.4}Cryphalina}{3}
+\contentsline {subsection}{\numberline {3.5}Crypturgina}{3}
+\contentsline {subsection}{\numberline {3.6}Dryocoetina}{3}
+\contentsline {subsection}{\numberline {3.7}Ipina}{3}
+\contentsline {subsection}{\numberline {3.8}Xyleborina}{3}
+\contentsline {subsection}{\numberline {3.9}Xyloterina}{3}
+\contentsline {subsection}{\numberline {3.10}Hylesinina}{3}
+\contentsline {subsection}{\numberline {3.11}Hylastina}{3}
+\contentsline {subsection}{\numberline {3.12}Hylurgina}{3}
+\contentsline {subsection}{\numberline {3.13}Phloeotribina}{3}
+\contentsline {subsection}{\numberline {3.14}Polygraphina}{3}

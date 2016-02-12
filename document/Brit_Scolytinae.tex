@@ -1,0 +1,133 @@
+%----------------------------------------
+% Scolytinae Key
+% Author: Stephanie Unna
+% Sainsbury Laboratory
+% Unversity of Cambridge
+% Date: September 2013
+%vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv
+%   PACKAGES AND CONFIGURATIONS
+%^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+\documentclass[paper=a4, fontsize=11pt]{scrartcl}
+
+%\setlength{\topmargin}{0cm}
+\setlength{\headsep}{1.2cm}
+\setlength{\evensidemargin}{0cm}
+\setlength{\oddsidemargin}{0cm}
+\setlength{\textwidth}{16.5cm}
+\setlength{\textheight}{20.5cm}
+
+\usepackage[english]{babel} % English language/hyphenation
+\usepackage{amsmath,amsfonts,amsthm} % Math packages
+\usepackage{multirow}
+\usepackage{setspace}
+\usepackage{graphicx}
+\usepackage{float}
+\usepackage{wasysym}
+\usepackage{adjustbox}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+
+\usepackage{sectsty} % Allows customizing section commands
+\allsectionsfont{\normalfont\scshape} % Make all sections centered, the default font and small caps
+
+\usepackage{natbib} % Allows proper author-date citation styles
+
+\usepackage{fancyhdr} % Custom headers and footers
+\pagestyle{fancyplain} % Makes all pages in the document conform to the custom headers and footers
+\renewcommand{\headrulewidth}{0pt} % Remove header underlines
+\renewcommand{\footrulewidth}{0pt} % Remove footer underlines
+\setlength{\headheight}{14pt} % Customize the height of the header
+
+\numberwithin{equation}{section} % Number equations within sections (i.e. 1.1, 1.2, 2.1, 2.2 instead of 1, 2, 3, 4)
+\numberwithin{figure}{section} % Number figures within sections (i.e. 1.1, 1.2, 2.1, 2.2 instead of 1, 2, 3, 4)
+\numberwithin{table}{section} % Number tables within sections (i.e. 1.1, 1.2, 2.1, 2.2 instead of 1, 2, 3, 4)
+
+\setlength\parindent{0pt} % Removes all indentation from paragraphs - comment this line for an assignment with lots of text
+
+%vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv
+%   TITLE SECTION
+%^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+\newcommand{\horrule}[1]{\rule{\linewidth}{#1}} % Create horizontal rule command with 1 argument of height
+
+\title{
+\normalfont \normalsize
+\textsc{A Key to the Species of British Bark Beetles} \\ [25pt] % header
+%\horrule{0.5pt} \\[0.4cm] % Thin top horizontal rule
+\huge Coleoptera: Curculionidae: Scolytinae \\ % The assignment title
+%\horrule{2pt} \\[0.5cm] % Thick bottom horizontal rule
+}
+
+\author{Stephanie Unna}
+
+\date{\normalsize\today} % Today's date or a custom date
+
+\begin{document}
+
+\maketitle % Print the title environment
+
+% \begin{figure}[H]
+%   \centering
+%     \includegraphics[width=0.65\textwidth]{}
+% \end{figure}
+
+\newpage
+
+\fancyhead{}
+\fancyfoot[L]{} %  Empty left footer
+\fancyfoot[C]{} % Empty center footer
+\fancyfoot[R]{\thepage} % Page numbering for right footer
+
+\tableofcontents
+
+{\it Steph Smith-Unna*} \hfill \\ [1ex]
+ \hfill \\ [1ex]
+
+{\it *Sainsbury Laboratory, University of Cambridge; stephanie.unna@SLCU.cam.ac.uk}
+
+\newpage
+
+\section{Introduction}
+\label{sec:Introduction}
+\doublespacing
+
+\subsection{Background}
+
+\section{Subfamily Scolytinae}
+\label{sec:Tribes}
+\doublespacing
+
+\subsection{Key to the tribes}
+\subsection{Scolytini}
+\subsubsection{Scolytina}
+\subsubsection{Corthylina}
+\subsubsection{Cryphalina}
+\subsubsection{Crypturgina}
+\subsubsection{Dryocoetina}
+\subsubsection{Ipina}
+\subsubsection{Xyleborina}
+\subsubsection{Xyloterina}
+
+\subsection{Hylesinini}
+\subsubsection{Hylesinina}
+\subsubsection{Hylastina}
+\subsubsection{Hylurgina}
+\subsubsection{Phloeotribina}
+\subsubsection{Polygraphina}
+
+\newpage
+
+%vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv
+%vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv
+%vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv
+% BIBLIOGRAPHY
+%^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+%^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+%^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+\singlespacing
+\bibliography{../Referencing/fixedbib}{}
+\bibliographystyle{../Referencing/UWE}
+
+\end{document}
